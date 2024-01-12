@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T14:05:33.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="pRD8tIbYn1owDjwBw7xa" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T14:14:24.705Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_g1NqZIIzA4jfFL8jT0G" version="22.1.18" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
-    <mxGraphModel dx="934" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1033" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
@@ -11,6 +11,9 @@
         </mxCell>
         <mxCell id="1c1d494c118603dd-2" value="MLflow" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
           <mxGeometry y="20" width="250" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-27" value="使用对应的torch api保存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="74.38" y="185" width="101.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-3" value="MinIO" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
           <mxGeometry x="250" y="20" width="250" height="950" as="geometry" />
@@ -28,13 +31,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;触发器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1c1d494c118603dd-4">
-          <mxGeometry x="68.75" y="120" width="111.25" height="60" as="geometry" />
+          <mxGeometry x="74.38" y="120" width="101.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-6" value="用户操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1c1d494c118603dd-4">
           <mxGeometry x="95" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-10" value="响应模块&lt;br&gt;（进行预先创建的动作）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1c1d494c118603dd-4">
-          <mxGeometry x="65" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="65.01" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1c1d494c118603dd-1" source="REl0dKnZgpMUpYx7Mj24-10" target="REl0dKnZgpMUpYx7Mj24-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-29" value="运行action中对应的DNN模型运行、&lt;br&gt;保存的python文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="REl0dKnZgpMUpYx7Mj24-28">
+          <mxGeometry x="0.0333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="60571a20871a0731-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -42,6 +53,9 @@
             <mxPoint x="665" y="160" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="320" width="101.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
