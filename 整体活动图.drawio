@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T15:26:11.671Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LmrfS_ap0KTYTnPTvKqV" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T15:28:02.599Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jgU9b9hakeiiwCq2iYa0" version="22.1.18" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
-    <mxGraphModel dx="1308" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1308" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
@@ -114,6 +114,9 @@
         <mxCell id="REl0dKnZgpMUpYx7Mj24-48" value="OpenWhisk cli" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="309" y="817" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="REl0dKnZgpMUpYx7Mj24-50" target="REl0dKnZgpMUpYx7Mj24-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-50" value="创建action" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="503" y="817" width="120" height="60" as="geometry" />
         </mxCell>
@@ -122,6 +125,9 @@
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-52" value="对应python文件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="309" y="705" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="REl0dKnZgpMUpYx7Mj24-54" target="REl0dKnZgpMUpYx7Mj24-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-54" value="自建对应的python进行时镜像" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="503" y="942" width="120" height="60" as="geometry" />
@@ -138,8 +144,20 @@
         <mxCell id="REl0dKnZgpMUpYx7Mj24-56" value="python进行时的docker镜像" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="309" y="1013" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="REl0dKnZgpMUpYx7Mj24-61" target="REl0dKnZgpMUpYx7Mj24-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-61" value="创建触发器" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="503" y="688" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="REl0dKnZgpMUpYx7Mj24-63" target="REl0dKnZgpMUpYx7Mj24-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-63" value="触发动作" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="690" y="688" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-64" value="使用镜像，&lt;br&gt;运行文件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="690" y="942" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
