@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T15:09:12.043Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="X-jyPZPaqTpRYGGeZCLH" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T15:10:51.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YdTFrB-ZmDjKUs-KxH8K" version="22.1.18" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1090" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
         <mxCell id="1c1d494c118603dd-1" value="面向服务器无感知机器学习的细粒度DNN模型存储系统" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="750" height="970" as="geometry">
+          <mxGeometry x="40" y="20" width="760" height="610" as="geometry">
             <mxRectangle x="40" y="20" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1c1d494c118603dd-2" value="MLflow" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
-          <mxGeometry y="20" width="250" height="950" as="geometry" />
+          <mxGeometry y="20" width="250" height="590" as="geometry" />
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-34" value="运行对应模型，得出结果，并使用自建的存储函数存入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1c1d494c118603dd-2">
           <mxGeometry x="65" y="161.25" width="120" height="57.5" as="geometry" />
@@ -22,7 +22,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-3" value="MinIO" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
-          <mxGeometry x="250" y="20" width="250" height="950" as="geometry" />
+          <mxGeometry x="250" y="20" width="250" height="590" as="geometry" />
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1c1d494c118603dd-3" source="60571a20871a0731-4" target="REl0dKnZgpMUpYx7Mj24-36">
           <mxGeometry relative="1" as="geometry" />
@@ -37,10 +37,10 @@
           <mxGeometry x="72.5" y="317.5" width="105" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-4" value="Openwhisk" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
-          <mxGeometry x="500" y="20" width="250" height="950" as="geometry" />
+          <mxGeometry x="500" y="20" width="260" height="590" as="geometry" />
         </mxCell>
         <mxCell id="60571a20871a0731-5" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1c1d494c118603dd-4" vertex="1">
-          <mxGeometry x="100" y="880" width="40" height="40" as="geometry" />
+          <mxGeometry x="105.01" y="480" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1c1d494c118603dd-4" source="REl0dKnZgpMUpYx7Mj24-5" target="REl0dKnZgpMUpYx7Mj24-10">
           <mxGeometry relative="1" as="geometry" />
@@ -50,6 +50,9 @@
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-10" value="响应模块&lt;br&gt;（进行预先创建的动作）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1c1d494c118603dd-4">
           <mxGeometry x="70.64" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REl0dKnZgpMUpYx7Mj24-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1c1d494c118603dd-4" source="REl0dKnZgpMUpYx7Mj24-39" target="60571a20871a0731-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-39" value="展示模型运行结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1c1d494c118603dd-4">
           <mxGeometry x="74.38" y="410" width="101.25" height="30" as="geometry" />
@@ -84,7 +87,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="REl0dKnZgpMUpYx7Mj24-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="320" width="101.25" height="30" as="geometry" />
+          <mxGeometry x="950" y="120" width="101.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
