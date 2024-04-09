@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-04-09T12:28:53.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="OTJSAwa2Crd-7PDlS3dx" version="21.1.5" type="device">
+  <diagram name="Page-1" id="9f46799a-70d6-373c-8497-bfd2d4cc107f">
+    <mxGraphModel dx="1050" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-1" value="MLflow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-2" value="MinIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-3" value="Openwhisk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YJ_kkAvTKcPaQHfOlxLz-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="310" as="source" />
+            <mxPoint x="420" y="310" as="target" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-5" value="模型注册&lt;br&gt;元数据管理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" vertex="1" connectable="0" parent="YJ_kkAvTKcPaQHfOlxLz-4">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YJ_kkAvTKcPaQHfOlxLz-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="310" as="source" />
+            <mxPoint x="690" y="310" as="target" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-7" value="模型推理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" vertex="1" connectable="0" parent="YJ_kkAvTKcPaQHfOlxLz-6">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YJ_kkAvTKcPaQHfOlxLz-1" target="YJ_kkAvTKcPaQHfOlxLz-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="source" />
+            <mxPoint x="540" y="310" as="target" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-9" value="模型存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" vertex="1" connectable="0" parent="YJ_kkAvTKcPaQHfOlxLz-8">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJ_kkAvTKcPaQHfOlxLz-10" value="细粒度、去冗余的&lt;br&gt;DNN模型存储系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="150" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
