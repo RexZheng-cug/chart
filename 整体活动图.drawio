@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T12:14:30.277Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="NSFBOBgM0zKKipqshFoA" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T12:21:31.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="47dol8cdA7RQsBHifAXn" version="24.2.3" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="2179" dy="1050" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -300,6 +300,24 @@
         </mxCell>
         <mxCell id="onXMyfzlOP2DkkVahKg6-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Fine-Grained DNN Model Storage System&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1096" y="-52" width="406" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="onXMyfzlOP2DkkVahKg6-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1096" y="28" width="406" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="onXMyfzlOP2DkkVahKg6-8" value="Training Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="45" width="105" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="onXMyfzlOP2DkkVahKg6-13" value="Logging parameter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="45" width="114" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="onXMyfzlOP2DkkVahKg6-14" value="Training Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-815" y="45" width="105" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="onXMyfzlOP2DkkVahKg6-15" value="Splitting&amp;nbsp;Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="91" width="114" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="onXMyfzlOP2DkkVahKg6-16" value="Saving Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="91" width="105" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
